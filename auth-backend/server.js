@@ -16,7 +16,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "lync-full-stack-developer-task-siddhesh.vercel.app",
+      "https://lync-full-stack-developer-task-siddhesh.vercel.app",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
